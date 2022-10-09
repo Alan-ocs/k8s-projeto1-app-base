@@ -12,7 +12,7 @@ docker push aocs/kube-dabase:1.0
 
 echo "Criando servicos no cluster kubernets..."
 
-kubectl apply -f ./service.yml
+kubectl apply -f ./services.yml
 
 echo "Realizando os deployments..."
 
